@@ -26,6 +26,5 @@ public class MainActivity extends AppCompatActivity {
         //AppBarConfiguration configuration=new AppBarConfiguration.Builder(R.id.firstFragment,R.id.secondFragment,R.id.firstFragment,R.id.fourthFragment).build();
         NavigationUI.setupActionBarWithNavController(this,controller,configuration);
         NavigationUI.setupWithNavController(bottomNavigationView,controller);
-
     }
 }
